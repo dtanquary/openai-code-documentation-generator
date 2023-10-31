@@ -1,0 +1,30 @@
+{
+  "name": "@brainstorm/openai-code-documentation-generator",
+  "version": "1.0.0",
+  "description": "Uses OpenAI to automatically generates code documentation for the provided file(s).",
+  "type": "module",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+  },
+  "author": "David Tanquary",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "lodash": "^4.17.21",
+    "openai": "^4.11.0",
+    "ora": "^7.0.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/lodash": "^4.14.199",
+    "@types/node": "^20.8.3",
+    "@types/yargs": "^17.0.28",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}

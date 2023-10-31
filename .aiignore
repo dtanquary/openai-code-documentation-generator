@@ -1,0 +1,7 @@
+package.json
+package-lock.json
+/docs*
+/tests
+/dist
+jest.config.ts
+tsconfig.json
