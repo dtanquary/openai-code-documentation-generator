@@ -1,6 +1,6 @@
 {
   "name": "@brainstorm/openai-code-documentation-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Uses OpenAI to automatically generates code documentation for the provided file(s).",
   "type": "module",
   "bin": "./dist/index.js",
