@@ -51,7 +51,7 @@ const argv = yargs(process.argv.slice(2))
     .option('model', {
     alias: 'm',
     describe: 'The OpenAI model you want to use',
-    choices: ['gpt-3.5-turbo', 'gpt-3.5-turbo-16k', 'gpt-4', 'gpt-4-32k'],
+    choices: ['gpt-3.5-turbo', 'gpt-3.5-turbo-16k', 'gpt-4', 'gpt-4-32k', 'gpt-4-1106-preview'],
     default: 'gpt-3.5-turbo',
     requiresArg: true,
 })
